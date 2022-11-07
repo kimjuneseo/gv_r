@@ -41,10 +41,32 @@ main #gal .container .img_wrap>div:nth-child(3){width: 450px; height: 350px; z-i
 #room .content_wrap .item:nth-child(1) .img_box{height: 350px; filter: brightness(.8);}
 /* 지역영역 */
 #location{display: flex;}
-#location>div{flex: 1;}
+#location>div{flex: 1; width: 100%;}
 #location .loction_wrap{ height: 900px; grid-template-columns: repeat(2, 1fr);}
 #location .loction_wrap .img_box{height: 100%; filter: brightness(.7);}
-#location .right{background-color: #111; di}
-
-
+#location .right{padding: 4rem; display: flex; flex-direction: column; background-color: #111; }
+#location .right .m_title{line-height: 70px; font-size: 5rem; color: #fff; }
+#location .right .tm_text{font-size: 14px; color: #fff; }
+#location .right .m2_title{line-height: 80px; font-size: 5rem; color: #bc9f7c; }
+#location .right .text_wrap{display: flex; padding: 5rem 0rem; gap: 2rem; color: #bebebe;}
+#location .right .text_wrap p{flex: 1;}
+#location .right button{width: 350px;  background-color: #242424; border: unset; color: #fff; line-height: 40px;}
+/* 지역영역밑에 텍스트 */
+article {width: 1000px; margin: 3rem auto; text-align: center; }
+/* 그리드 이미지 영역 */
+#grid_img{padding: 5rem 0rem; background-color: #f9f9f9;}
+#grid_img .container{display: grid; grid-template-columns: repeat(2, 1fr);}
+#grid_img .container>div{height: 550px;}
+#grid_img .container>div img{filter: brightness(.6);}
+#grid_img .container .text_item{color: #424242;}
+#grid_img .container .text_item{padding: 0rem 3rem; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem; background-color: #fff; text-align: center;}
+#grid_img .container .text_item .t_title{color: #bc9f7c;}
+#grid_img .container .text_item h2{font-size: 2rem; font-weight: 700;}
+#grid_img .container .text_item button{width: 150px; line-height: 35px; background: #fff; border: 1px solid #bc9f7c; font-weight: 700; color: #bc9f7c; }
+/* 백그라운드 이미지 영역 */
+#backImg .img_box{height: 400px; position: relative;}
+#backImg .img_box img{filter: brightness(.8);}
+#backImg .img_box .text_box{position: absolute; width: 100%; height: 100%; top: 0; left: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 1rem; z-index: 1; color: #fff;} 
+#backImg .img_box .text_box .bigText{line-height: 50px; color: #fff; font-size: 3rem; }
+#backImg .img_box .text_box .cial{width: 50px; height: 50px; border: 3px solid #fff; border-radius: 50%;}
 
