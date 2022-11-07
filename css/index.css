@@ -1,0 +1,50 @@
+header{position: fixed; top: 0px; left: 0; width: 100%; height: 70px; background-color: #1c1c1c;  z-index: 100;}
+.title{padding-bottom: 2rem; color: #626262; }
+.title h2{ font-size: 2.5rem; color: #343434; position: relative;}
+.title h2::after{content: 'we are best room '; width: 100%;  position: absolute; top: -10px; left: 0; font-size: 12px; text-align: center;}
+
+/* 헤더 영역 */
+header .logo{width: 250px; color: #FFF;}
+header .container{height: 100%; justify-content: space-between; align-items: center;}
+header .menu{color: #fff; width: 500px; height: 100%;  align-items: center}
+header .menu .item{flex: 1; width: 100%; height: 100%; text-align: center; display: flex; align-items: center; justify-content: center;}
+header .menu button{border-radius: 5px; background-color: #fff; color: #424242; padding: .2rem .6rem; font-size: 14px; font-weight: 700;}
+/* 슬라이드 영역 */
+main #slide .slide{width: 100%; height: calc(100vh ); position: relative; display: flex; justify-content: center;}
+main #slide img{width: 100%; height: 100%;filter: brightness(.6); }
+main #slide .text{position: absolute; width: 100%; top: 30%; z-index: 1;text-align: center; color: #ebebeb; font-size: 6rem; font-weight: 500;}
+main #slide .slide_ctr{width: 600px; height: 120px; margin: 0 auto; position: absolute; top: 80%; left: calc(100vw / 2 - 300px); box-shadow: 3px 5px 13px #2e2d2d85;}
+main #slide .slide_ctr>div{flex: 1; display: flex; justify-content: center; align-items: center;}
+main #slide .slide_ctr .item{text-align: center; background-color: #fff; font-size: 2rem; font-weight: bold; color: #424242;}
+main #slide .slide_ctr .not_item{background-color: #1c1c1c; color: #e2e2e2;text-align: center;}
+/* 갤러리 영역 */
+main #gal .container{gap: 150px; height: 800px; padding-top: 100px;}
+main #gal .container>div{flex: 1;}
+main #gal .container .text_wrap{padding-top: 4.5rem; display: flex; align-items: center; gap: 3rem; flex-direction: column; text-align: center; color: #626262;}
+main #gal .container .text_wrap h2{font-size: 5rem; font-weight: 300;  position: relative; line-height: 80px;}
+main #gal .container .text_wrap h2::after{content: ''; width: 30%; height: 5px; position: absolute; background-color: #626262; top: -16%; left: calc(100% - 65%);}
+main #gal .container .text_wrap p{font-size: 15px;}
+main #gal .container .text_wrap button{width: 120px; line-height: 40px; background-color: #bc9f7c; border: unset; color: #fff; text-align: center; font-weight: 500;}
+main #gal .container .img_wrap{position: relative; }
+main #gal .container .img_wrap>div{position: absolute;  filter: brightness(.8); }
+main #gal .container .img_wrap>div:nth-child(1){width: 400px; height: 450px; z-index: 1; transform: translate();}
+main #gal .container .img_wrap>div:nth-child(2){width: 350px; height: 400px; z-index: 2; transform: translate(250px, 100px);}
+main #gal .container .img_wrap>div:nth-child(3){width: 450px; height: 350px; z-index: 3; transform: translate(-100px, 300px);}
+/* 방 영역 */
+#room{background-color: #f9f9f9; padding: 6rem 0rem;}
+#room .content_wrap{grid-template-columns: repeat(4, 300px);  gap: 1rem;}
+#room .content_wrap .item .img_box{height: 300px; filter: brightness(.7);}
+#room .content_wrap .item .text_wrap{padding: 1rem; display: grid; gap: .8rem; color: #424242;}
+#room .content_wrap .item .text_wrap h2{font-weight: 700; font-size: 2rem;}
+#room .content_wrap .item .text_wrap button{width: 250px; background-color: #242424; color: #fff; line-height: 35px;}
+#room .content_wrap .item:nth-child(1){grid-column: 1/3; grid-row: 1/3;}
+#room .content_wrap .item:nth-child(1) .img_box{height: 350px; filter: brightness(.8);}
+/* 지역영역 */
+#location{display: flex;}
+#location>div{flex: 1;}
+#location .loction_wrap{ height: 900px; grid-template-columns: repeat(2, 1fr);}
+#location .loction_wrap .img_box{height: 100%; filter: brightness(.7);}
+#location .right{background-color: #111; di}
+
+
+
