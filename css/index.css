@@ -1,6 +1,6 @@
 header{position: fixed; top: 0px; left: 0; width: 100%; height: 70px; background-color: #1c1c1c;  z-index: 100;}
 .title{padding-bottom: 2rem; color: #626262; }
-.title h2{ font-size: 2.5rem; color: #343434; position: relative;}
+.title h2{ font-size: 3rem; color: #424242; position: relative;}
 .title h2::after{content: 'we are best room '; width: 100%;  position: absolute; top: -10px; left: 0; font-size: 12px; text-align: center;}
 
 /* 헤더 영역 */
@@ -69,4 +69,29 @@ article {width: 1000px; margin: 3rem auto; text-align: center; }
 #backImg .img_box .text_box{position: absolute; width: 100%; height: 100%; top: 0; left: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 1rem; z-index: 1; color: #fff;} 
 #backImg .img_box .text_box .bigText{line-height: 50px; color: #fff; font-size: 3rem; }
 #backImg .img_box .text_box .cial{width: 50px; height: 50px; border: 3px solid #fff; border-radius: 50%;}
+/* 블로그 영역 */
+#blog{padding: 5rem 0rem; background-color: #f9f9f9;}
+#blog .blog_grid{display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
+#blog .blog_grid .item{display: flex; flex-direction: column; gap: 1rem;}
+#blog .blog_grid .item img{filter: brightness(.7);}
+#blog .blog_grid .text_btn_box{padding: 2rem 1rem; display: flex; flex-direction: column; gap: 1rem; background-color: #fff; color: #424242;}
+#blog .blog_grid .text_btn_box button{width: 150px; line-height: 34px; border: 1px solid #bc9f7c; background-color: #fff; color: #bc9f7c;}
+#blog .blog_grid .text_btn_box h2{font-weight: 700;}
+#blog .blog_grid .line1 .img_box{height: 290px; }
+#blog .blog_grid .line1 .text_box{height: 150px; background: #242424; color: #fff; text-align: center; font-weight: 700; display: flex; justify-content: center; align-items: center;}
+#blog .blog_grid .line2 .text_box{height: 220px; padding: 1rem; display: flex; flex-direction: column; align-items: center; justify-content: space-around; background-color: #bc9f7c; text-align: center;  color: #fff;}
+#blog .blog_grid .line2 .img_box{height: 220px;}
+#blog .blog_grid .line3 .img_box{height: 760px;}
+/* 푸터 영역 */
+footer .t_footer{height: 200px; background-color: #111;}
+footer .t_footer .container{height: 100%; display: flex; align-items: center; justify-content: space-between;}
+footer .t_footer .item{display: flex; flex-direction: column; gap: 1rem;}
+footer .t_footer .item h4{ color: #bcbcbc; font-weight: 700;}
+footer .t_footer .item p{ color: #a8a8a8;}
+footer .t_footer .item .input_item input{background-color: #000; border: unset; line-height: 30px;}
+footer .t_footer .item .input_item button{width: 100px; line-height: 30px; background-color: #c09c70; color: #fff;}
 
+footer .b_footer{height: 90px; background-color: #000;}
+footer .b_footer .container{height: 100%; display: flex; justify-content: space-between; background-color: #000;}
+footer .b_footer .menu{height: 100%; display: flex; gap: 2.5rem; align-items: center; color: #bcbcbc;}
+footer .b_footer .r_item{height: 100%; display: flex; gap: 3rem; align-items: center; color: #bcbcbc;}
