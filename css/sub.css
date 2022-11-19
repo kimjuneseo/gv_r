@@ -1,0 +1,11 @@
+header{position: fixed; top: 0px; left: 0; width: 100%; height: 70px; background-color: #1c1c1c;  z-index: 100;}
+.title{padding-bottom: 2rem; color: #626262; }
+.title h2{ font-size: 3rem; color: #424242; position: relative;}
+.title h2::after{content: 'we are best room '; width: 100%;  position: absolute; top: -10px; left: 0; font-size: 12px; text-align: center;}
+
+/* 헤더 영역 */
+header .logo{width: 250px; color: #FFF;}
+header .container{height: 100%; justify-content: space-between; align-items: center;}
+header .menu{color: #fff; width: 500px; height: 100%;  align-items: center}
+header .menu .item{flex: 1; width: 100%; height: 100%; text-align: center; display: flex; align-items: center; justify-content: center;}
+header .menu button{border-radius: 5px; background-color: #fff; color: #424242; padding: .2rem .6rem; font-size: 14px; font-weight: 700;}
